@@ -36,4 +36,3 @@ resource "kubernetes_deployment" "nginx" {
     }
   }
 }
-
