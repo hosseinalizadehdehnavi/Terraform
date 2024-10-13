@@ -1,9 +1,9 @@
 variable "config_path" {
-  default = "~/.kube/kind.config"
+  default = #"Kubeconfig-Path"
 }
 
 variable "replicas" {
-  default = 3
+  default = #Number
 }
 
 variable "image" {
